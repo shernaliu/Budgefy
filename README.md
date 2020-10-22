@@ -35,7 +35,7 @@ This project uses the [OCRSpace OCR API](https://ocr.space).
 
 ## Screenshots
 
-For more information, please view the write-up report file `Budgefy_Report_DIT2B03.pdf`.
+For more information, please view the write-up report file `Budgefy_Report_DIT2B03.pdf` found in this repository.
 
 ![Budgefy-1](https://res.cloudinary.com/shernaliu/image/upload/v1603391139/github-never-delete/budgefy/Slide1.png)
 
