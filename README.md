@@ -1,4 +1,4 @@
-# Weatheroo
+# Budgefy
 
 This project is a Android mobile application developed by myself, Kai Ling, Rachel for the module Mobile Application (ST0281) during our time in SP - DIT in 2016.
 
