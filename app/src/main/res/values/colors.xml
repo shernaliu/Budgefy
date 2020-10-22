@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="googleRed">#df4a32</color>
+    <color name="fab_camera">#72BB53</color>
+    <color name="fab_gallery">#3D8AF7</color>
+    <color name="fab_manual">#FF7042</color>
+</resources>

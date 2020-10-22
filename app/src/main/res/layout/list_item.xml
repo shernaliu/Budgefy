@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+    <!--
+    Notes:
+    layout_alignParentLeft="true"
+    layout_alignParentStart="true"
+
+    These 2 attributes do the same thing: Start the image view off the left edge of the screen
+    But alignParentLeft is for older versions of Android,
+    alignParentStart is for newer versions of Android.
+
+    layout_centerVertical="true"
+    The image will be centered vertically in the row no matter how tall the row is.
+
+    contentDescription="Shark"
+    Important attribute for accessibility.
+    -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="Shark"
+        app:srcCompat="@drawable/shark"
+        tools:ignore="HardcodedText" />
+
+    <!--
+    Notes:
+
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    Set both of these attributes to a dimensions resource that's already a part of the application
+
+    layout_toEndOf="@+id/imageView" is for newer versions of Android
+    layout_toRightOf="@id/imageView" is for older versions of Android
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fab_gallery"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="16dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@id/imageView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Record Name"
+        android:id="@+id/itemNameText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_below="@id/itemNameText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12sp"
+        android:text="Price"
+        android:id="@+id/priceText"
+        />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Budgefy</string>
+    <string name="about_app_description">Budgefy is an expense tracking application created by developer Team Sane Sharks, which consists of members Liew Zhi Li (Sherna), Leong Kai Ling and Rachel Kon.</string>
+    <string name="about_sub_header">Got a question?</string>
+
+    <!-- For activity_login.xml -->
+    <string name="sign_in">Sign In with Google</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="got_a_question">Got a Question?</string>
+    <string name="email_us">Email Us</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+
+
+    <!--Define Category choices for fragment_2_create's spinner menu-->
+    <string-array name="category_choices">
+        <item>food</item>
+        <item>grocery</item>
+        <item>entertainment</item>
+        <item>transport</item>
+        <item>bill</item>
+        <item>misc</item>
+    </string-array>
+
+</resources>
+

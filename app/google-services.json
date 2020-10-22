@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "1096206388967",
+    "firebase_url": "https://budgefy-7143a.firebaseio.com",
+    "project_id": "budgefy-7143a",
+    "storage_bucket": "budgefy-7143a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096206388967:android:d1fa84fa6176c62c",
+        "android_client_info": {
+          "package_name": "com.mapp.budgefy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096206388967-npd58hhv8le9qpf4v3ll9pnq2k8bjivm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapp.budgefy",
+            "certificate_hash": "B9FE9705E13FB6C69289E5215855CC9110D9578A"
+          }
+        },
+        {
+          "client_id": "1096206388967-q3573mrbrmkq1v74vefr62eou0j4a9m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapp.budgefy",
+            "certificate_hash": "0583FE3F13DCFA4E67F61E8012F0FBBA1055AF70"
+          }
+        },
+        {
+          "client_id": "1096206388967-86jdm6kq1dde7mhtotqsmehid24r3nbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapp.budgefy",
+            "certificate_hash": "50A66839AEAB90B98F9456D49B1A258A76314203"
+          }
+        },
+        {
+          "client_id": "1096206388967-nr8sei2ulfa4iesivlss88erv6icp6hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeFAw22x4LYlw-0Z57LO9OBlhQ5vyt2a8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096206388967-nr8sei2ulfa4iesivlss88erv6icp6hl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

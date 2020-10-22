@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mapp.budgefy">
+
+    <!--Declare CAMERA & Write to External Storage so picture can be saved in user's SD CARD -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--Declare permission for INTERNET usage -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- hardwareAccelerated & largeHeap is to resolve the issue of large image file size loading into imageView-->
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Splashscreen"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SignInActivity"></activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ViewReceiptDetail"
+            android:label="View Receipt"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".UpdateReceiptDetail"
+            android:label="Update Receipt"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".CreateRecord"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".Connectivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
